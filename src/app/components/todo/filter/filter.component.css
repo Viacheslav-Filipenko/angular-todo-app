@@ -1,0 +1,34 @@
+div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: white;
+    border: none;
+    border-color: black;
+    border-bottom: 1px solid;
+    color: black;
+    flex: 3;
+}
+
+label {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: #3498db;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: #3498db;
+}
+
+h2 {
+    text-align: center;
+}

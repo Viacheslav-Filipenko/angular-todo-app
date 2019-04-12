@@ -1,0 +1,33 @@
+
+.alert {
+    border-radius: 7px;
+    width: 500px;
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.alert div {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.success {
+    background-color: #27ae60;
+}
+
+.danger {
+    background-color: #e74c3c;
+}

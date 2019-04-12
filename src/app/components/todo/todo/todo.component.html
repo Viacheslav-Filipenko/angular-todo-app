@@ -1,0 +1,10 @@
+<div>
+  <h1>To do App</h1>
+  <div class="todo__header">
+    <input type="text" name="" id="" [(ngModel)]="description" />
+    <button class="danger" (click)="clearToDos()">Clear</button>
+    <button (click)="addToDo()">Add</button>
+  </div>
+  <app-filter></app-filter>
+  <app-todo-list [question]="filterComp.question"></app-todo-list>
+</div>

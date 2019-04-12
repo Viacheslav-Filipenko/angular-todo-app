@@ -1,0 +1,18 @@
+<div class="item" *ngIf="todo.isMatched">
+  <div>
+    <input type="checkbox" name="" id="" (click)="toogleDone()" />
+  </div>
+
+  <div class="description" 
+  [ngClass]="{ done: todo.isDone }" 
+  *ngIf="!isEdit; else edit"
+  (click)="toogleEdit()">
+    {{ todo.description }}
+  </div>
+
+  <ng-template #edit>
+    <input (keydown)="editItem($event)" class="edit-input" type="text" [(ngModel)]="todo.description">
+  </ng-template>
+  
+  <button (click)="deleteToDo()">X</button>
+</div>

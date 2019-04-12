@@ -1,0 +1,51 @@
+input {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+    flex: 2;
+}
+
+button {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.danger {
+    background-color: #e74c3c;
+    margin-right: 5px;
+}
+
+.danger:hover {
+    background-color: #c0392b;
+}
+
+h1 {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+.todo__header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div {
+    width: 500px;
+}
+
+:host {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
